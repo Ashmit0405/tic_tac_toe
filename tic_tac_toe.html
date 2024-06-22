@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tic_tac_toe.css">
+</head>
+<body>
+    <div class="msg hide">
+        <p id="winner">WINNER</p>
+        <button id="newgame">New Game</button>
+    </div>
+    <main>
+        <div id="rules">Rules: 
+            <ul class="list">
+            <li>The Player 1 will take the first turn.</li>
+            <li>The Game can be reset at any point between the game.</li>
+            <li>After the game is finished we can start a new game.</li>
+            <li>The game must have a winner hence in case of a tie just refresh the page.</li>
+            </ul>
+        </div>
+        <h1>TIC-TAC-TOE GAME</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button class="reset hide">Reset Game</button>
+    </main>
+    <script src="tic_tac_toe.js"></script>
+</body>
+</html>
