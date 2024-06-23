@@ -43,6 +43,7 @@ body{
     font-size: 1.25rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 #newgame{
     background-color: black;
@@ -51,6 +52,7 @@ body{
     font-size: 1.25rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 #winner{
     font-size: 8vmin;
